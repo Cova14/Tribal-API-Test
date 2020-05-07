@@ -53,7 +53,7 @@ app.get('/', async function (req, res) {
   })
 
   // Sending response separating data depending on their source
-  await res.send(
+  await res.json(
     {
       itunes: iTunesResponse,
       tvMaze: tVMazeResponse,
