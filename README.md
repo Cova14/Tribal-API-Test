@@ -11,7 +11,7 @@ Once we have this, clone the project and run:
 ### `npm install`
 
 And then: 
-### `nodemon index.js`
+### `npm start`
 
 You should have your app running in the port 5000!
 
