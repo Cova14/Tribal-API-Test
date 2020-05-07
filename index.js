@@ -3,7 +3,7 @@ const app = express();
 const axios = require('axios');
 const parseString = require('xml2js').parseString;
 const cors = require('cors')
-const PORT = 8000
+const PORT = 5000
 
 // Allowing all CORS request
 app.use(cors())
@@ -57,7 +57,7 @@ app.get('/', async function (req, res) {
     {
       itunes: iTunesResponse,
       tvMaze: tVMazeResponse,
-      crcind: !!crcindResponse ? crcindResponse : {}
+      crcind: crcindResponse
     }
   );
 });
