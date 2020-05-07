@@ -24,7 +24,7 @@ We're using node and express to do this.
 
 ### Making the calls
 
-We're using axios to make 2 calls, this is because the API response is in a JSON format.
+We're using axios to make two calls, this is because the API response is in a JSON format.
 For the third one, we're using the library 'xml2js' to convert the XML response into JSON and put them all together.
 
 Now, due to this being originaly an XML we are using certain syntax to acces the data: 
