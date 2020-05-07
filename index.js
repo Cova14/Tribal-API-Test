@@ -63,5 +63,5 @@ app.get('/', async function (req, res) {
 });
 
 app.listen(PORT, () => {
- console.log("El servidor está inicializado en el puerto " + PORT);
+ console.log("Server running on port " + PORT);
 });
